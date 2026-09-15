@@ -1,0 +1,8 @@
+[package]
+name = "log_output"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+jiff = { version = "0.2.37", default-features = false, features = ["std"] }
+uuid = { version = "1", features = ["v4"] }
